@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back">
+
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Image Search App"
+        android:textColor="@color/white"
+        android:textSize="39sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/image_1"
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="-15dp"
+        app:srcCompat="@drawable/ui_part1" />
+
+    <ImageView
+        android:id="@+id/image_2"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-27dp"
+        android:rotation="180"
+        app:srcCompat="@drawable/ui_part3" />
+
+    <ImageView
+        android:id="@+id/image_3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="110dp"
+        app:srcCompat="@drawable/ui_strip" />
+
+    <ImageView
+        android:id="@+id/image_4"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-27dp"
+        app:srcCompat="@drawable/ui_part3" />
+
+    <ImageView
+        android:id="@+id/image_5"
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="-15dp"
+        app:srcCompat="@drawable/ui_part1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:rotation="180"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:id="@+id/image_6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="110dp"
+        app:srcCompat="@drawable/ui_strip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
